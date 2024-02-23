@@ -7,3 +7,4 @@ ld.exe cp /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libanogs.so
 ld.exe cp /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/libx64.so
 ld.exe chmod -R 755 /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libanogs.so
 ld.exe chmod -R 755 /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/libx64.so
+pause
