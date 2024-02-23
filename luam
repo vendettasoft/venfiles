@@ -1,0 +1,37 @@
+adb devices
+for /f "tokens=2 delims=: " %%a in ('adb shell pm path com.proximabeta.mf.liteuamo') do set "app_path=%%a"
+set "app_dir=%app_path:~0,-8%"
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libanogs.so
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libx64.so
+C:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libanogs.so
+C:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/libx64.so
+C:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libanogs.so
+C:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/libx64.so
+
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libanogs.so
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libx64.so
+D:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libanogs.so
+D:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/libx64.so
+D:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libanogs.so
+D:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/libx64.so
+
+A:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libanogs.so
+A:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libx64.so
+A:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libanogs.so
+A:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/libx64.so
+A:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libanogs.so
+A:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/libx64.so
+
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libanogs.so
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libx64.so
+E:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libanogs.so
+E:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/libx64.so
+E:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libanogs.so
+E:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/libx64.so
+
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libanogs.so
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libx64.so
+F:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libanogs.so
+F:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/libx64.so
+F:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libanogs.so
+F:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/libx64.so
