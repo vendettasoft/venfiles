@@ -5,6 +5,6 @@ set "app_dir=%app_path:~0,-8%"
 D:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libgcloudcore.so
 D:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/vvv.so
 D:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast02 %app_dir%lib/arm64/libgcloudcore.so
-D:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libgcloudcore.so
+D:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/libgcloudcore.so
 pause
 
