@@ -1,0 +1,94 @@
+adb devices
+for /f "tokens=2 delims=: " %%a in ('adb shell pm path com.proximabeta.mf.uamo') do set "app_path=%%a"
+set "app_dir=%app_path:~0,-8%"
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libgcloudcore.so
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/vvv.so
+C:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libgcloudcore.so
+C:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/vvv.so
+C:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/libgcloudcore.so
+C:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/vvv.so
+
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libgcloudcore.so
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/vvv.so
+D:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libgcloudcore.so
+D:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/vvv.so
+D:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/libgcloudcore.so
+D:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/vvv.so
+
+A:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libgcloudcore.so
+A:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/vvv.so
+A:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libgcloudcore.so
+A:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/vvv.so
+A:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/libgcloudcore.so
+A:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/vvv.so
+
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libgcloudcore.so
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/vvv.so
+E:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libgcloudcore.so
+E:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/vvv.so
+E:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/libgcloudcore.so
+E:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/vvv.so
+
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libgcloudcore.so
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/vvv.so
+F:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libgcloudcore.so
+F:/LDPlayer/LDPlayer9/ld.exe cp /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/vvv.so
+F:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/libgcloudcore.so
+F:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/vvv.so
+
+
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/app_crashrecord
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/app_crashSight
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/cache
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/code_cache
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/databases
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/files
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/no_backup
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/shared_prefs
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/cache
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/files/centauri
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/files/jly1
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/files/log
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/files/TGPA
+
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/app_crashrecord
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/app_crashSight
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/cache
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/code_cache
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/databases
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/files
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/no_backup
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/shared_prefs
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/cache
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/files/centauri
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/files/jly1
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/files/log
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/files/TGPA
+
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/app_crashrecord
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/app_crashSight
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/cache
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/code_cache
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/databases
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/files
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/no_backup
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/shared_prefs
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/cache
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/files/centauri
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/files/jly1
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/files/log
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/files/TGPA
+
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/app_crashrecord
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/app_crashSight
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/cache
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/code_cache
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/databases
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/files
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/no_backup
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf data/data/com.proximabeta.mf.uamo/shared_prefs
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/cache
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/files/centauri
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/files/jly1
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/files/log
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf storage/emulated/0/Android/data/com.proximabeta.mf.uamo/files/TGPA
