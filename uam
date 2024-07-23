@@ -1,0 +1,52 @@
+adb devices
+for /f "tokens=2 delims=: " %%a in ('adb shell pm path com.proximabeta.mf.uamo') do set "app_path=%%a"
+set "app_dir=%app_path:~0,-8%"
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libgcloudcore.so
+C:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/vvv.so
+C:/LDPlayer/LDPlayer9/ld.exe mv /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libgcloudcore.so
+C:/LDPlayer/LDPlayer9/ld.exe mv /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/vvv.so
+C:/LDPlayer/LDPlayer9/ld.exe mv /storage/emulated/0/Podcasts/bin /data/data/com.proximabeta.mf.uamo/files/ano_tmp/ano_emu_c2.dat
+C:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/libgcloudcore.so
+C:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/vvv.so
+C:/LDPlayer/LDPlayer9/ld.exe chown system:system %app_dir%lib/arm64/libgcloudcore.so
+C:/LDPlayer/LDPlayer9/ld.exe chown system:system %app_dir%lib/arm64/vvv.so
+
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libgcloudcore.so
+D:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/vvv.so
+D:/LDPlayer/LDPlayer9/ld.exe mv /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libgcloudcore.so
+D:/LDPlayer/LDPlayer9/ld.exe mv /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/vvv.so
+D:/LDPlayer/LDPlayer9/ld.exe mv /storage/emulated/0/Podcasts/bin /data/data/com.proximabeta.mf.uamo/files/ano_tmp/ano_emu_c2.dat
+D:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/libgcloudcore.so
+D:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/vvv.so
+D:/LDPlayer/LDPlayer9/ld.exe chown system:system %app_dir%lib/arm64/libgcloudcore.so
+D:/LDPlayer/LDPlayer9/ld.exe chown system:system %app_dir%lib/arm64/vvv.so
+
+A:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libgcloudcore.so
+A:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/vvv.so
+A:/LDPlayer/LDPlayer9/ld.exe mv /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libgcloudcore.so
+A:/LDPlayer/LDPlayer9/ld.exe mv /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/vvv.so
+A:/LDPlayer/LDPlayer9/ld.exe mv /storage/emulated/0/Podcasts/bin /data/data/com.proximabeta.mf.uamo/files/ano_tmp/ano_emu_c2.dat
+A:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/libgcloudcore.so
+A:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/vvv.so
+A:/LDPlayer/LDPlayer9/ld.exe chown system:system %app_dir%lib/arm64/libgcloudcore.so
+A:/LDPlayer/LDPlayer9/ld.exe chown system:system %app_dir%lib/arm64/vvv.so
+
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libgcloudcore.so
+E:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/vvv.so
+E:/LDPlayer/LDPlayer9/ld.exe mv /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libgcloudcore.so
+E:/LDPlayer/LDPlayer9/ld.exe mv /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/vvv.so
+E:/LDPlayer/LDPlayer9/ld.exe mv /storage/emulated/0/Podcasts/bin /data/data/com.proximabeta.mf.uamo/files/ano_tmp/ano_emu_c2.dat
+E:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/libgcloudcore.so
+E:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/vvv.so
+E:/LDPlayer/LDPlayer9/ld.exe chown system:system %app_dir%lib/arm64/libgcloudcore.so
+E:/LDPlayer/LDPlayer9/ld.exe chown system:system %app_dir%lib/arm64/vvv.so
+
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/libgcloudcore.so
+F:/LDPlayer/LDPlayer9/ld.exe rm -rf %app_dir%lib/arm64/vvv.so
+F:/LDPlayer/LDPlayer9/ld.exe mv /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libgcloudcore.so
+F:/LDPlayer/LDPlayer9/ld.exe mv /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/vvv.so
+F:/LDPlayer/LDPlayer9/ld.exe mv /storage/emulated/0/Podcasts/bin /data/data/com.proximabeta.mf.uamo/files/ano_tmp/ano_emu_c2.dat
+F:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/libgcloudcore.so
+F:/LDPlayer/LDPlayer9/ld.exe chmod -R 755 %app_dir%lib/arm64/vvv.so
+F:/LDPlayer/LDPlayer9/ld.exe chown system:system %app_dir%lib/arm64/libgcloudcore.so
+F:/LDPlayer/LDPlayer9/ld.exe chown system:system %app_dir%lib/arm64/vvv.so
