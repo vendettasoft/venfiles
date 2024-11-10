@@ -1,0 +1,59 @@
+cd C:\
+ATTRIB +R C:\opengl.conf
+del /q /f %userprofile%\AppData\Roaming\AndroidTbox\TVM_100.xml
+
+del /q /f "A:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "C:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "D:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "E:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "F:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "Z:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "Y:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "X:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "W:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "V:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "U:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "T:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "S:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "R:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "Q:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "P:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "O:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "N:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "M:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "L:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "K:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "J:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "I:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "H:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "G:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+del /q /f "B:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf"
+
+xcopy "C:\opengl.conf" "A:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "C:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "D:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "E:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "F:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "Z:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "Y:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "X:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "W:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "V:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "U:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "T:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "S:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "R:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "Q:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "P:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "O:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "N:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "M:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "L:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "K:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "J:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "I:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "H:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "G:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+xcopy "C:\opengl.conf" "B:\Temp\TxGameDownload\MobileGamePCShared\" /k /r /y
+
+xcopy "C:\TVM_100.xml" %userprofile%\AppData\Roaming\AndroidTbox\ /k /r /y
