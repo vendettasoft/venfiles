@@ -1,0 +1,37 @@
+cd C:\
+del /q /f %userprofile%\AppData\Roaming\AndroidTbox\TVM_100.xml
+
+adb -s emulator-5554 shell rm -rf /data/share1/opengl.conf
+
+ren C:\Windows\Resources\ff1 opengl.conf
+
+adb -s emulator-5554 push C:\Windows\Resources\opengl.conf /data/share1/opengl.conf
+
+ATTRIB +R A:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R C:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R D:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R E:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R F:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R Z:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R Y:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R X:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R W:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R V:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R U:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R T:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R S:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R R:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R Q:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R P:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R O:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R N:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R M:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R L:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R K:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R J:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R I:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R H:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R G:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+ATTRIB +R B:\Temp\TxGameDownload\MobileGamePCShared\opengl.conf
+
+xcopy "C:\Windows\Resources\TVM_100.xml" %userprofile%\AppData\Roaming\AndroidTbox\ /k /r /y
