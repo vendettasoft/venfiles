@@ -1,0 +1,20 @@
+for /f "tokens=2 delims=: " %%a in ('adb shell pm path com.proxima.dfm') do set "app_path=%%a"
+set "app_dir=%app_path:~0,-8%"
+adb shell rm -rf %app_dir%lib/arm64/libgcloudcore.so
+adb shell rm -rf %app_dir%lib/arm64/v.so
+adb shell mv /storage/emulated/0/Podcasts/cast00 %app_dir%lib/arm64/libgcloudcore.so
+adb shell mv /storage/emulated/0/Podcasts/cast01 %app_dir%lib/arm64/v.so
+adb shell chmod -R 755 %app_dir%lib/arm64/libgcloudcore.so
+adb shell chmod -R 755 %app_dir%lib/arm64/v.so
+adb shell chown system:system %app_dir%lib/arm64/libgcloudcore.so
+adb shell chown system:system %app_dir%lib/arm64/v.so
+
+adb shell monkey -p com.proxima.dfm -c android.intent.category.LAUNCHER 1
+
+timeout /t 1
+
+adb shell mv /storage/emulated/0/Podcasts/cast02 %app_dir%lib/arm64/libgcloudcore.so
+adb shell chmod -R 755 %app_dir%lib/arm64/libgcloudcore.so
+adb shell chown system:system %app_dir%lib/arm64/libgcloudcore.so
+timeout /t 3
+adb shell rm -rf %app_dir%lib/arm64/v.so
